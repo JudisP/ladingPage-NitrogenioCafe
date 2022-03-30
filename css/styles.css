@@ -3,8 +3,8 @@
     --header-height: 3rem;
 
     --first-color: #74d0e1;
-    --first-color-dark: #C1576A;
-    --first-color-darken: #A83E51;
+    --first-color-dark: #4d99a7;
+    --first-color-darken: #33818f;
     --white-color: #FCF8F8;   
     
     --body-font: 'Poppins', sans-serif;
@@ -206,7 +206,7 @@ img{
     }
 
     .home__img img{
-        widht: 375;
+        width: 375;
     }
 }
 
