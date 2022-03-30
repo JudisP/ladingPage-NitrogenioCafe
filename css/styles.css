@@ -1,4 +1,3 @@
-
 :root{
     --header-height: 3rem;
 
@@ -47,7 +46,7 @@ a{
 }
 
 img{
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 
@@ -151,12 +150,16 @@ img{
 }
 
 .home__title{
-    font-size: var(--big-font-size);
+    font-size: 52px;
     line-height: 1.3;
     margin-bottom: 1rem;
 }
 
 .home__description{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6em;
     margin-bottom: 2.5rem;
 }
 
@@ -166,6 +169,17 @@ img{
     color: var(--white-color);
     padding: 1.125rem;
     border-radius: .5rem;
+}
+
+.home__email{
+    display: inline-block;
+    background-color: var(--white-color);
+    color: black;
+    padding: 1.125rem;
+    border-radius: .5rem;
+    border-color: var(--first-color-dark);
+    width: 335px;
+    border: 2px solid var(--first-color-dark);
 }
 
 @media screen and (min-width: 768px){
